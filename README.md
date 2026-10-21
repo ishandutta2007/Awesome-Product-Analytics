@@ -1,6 +1,6 @@
 # Awesome-Product-Analytics
 
-# Top Product Analytics Tools Ecosystem
+## Top Product Analytics Tools Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Event Tracking, Session Replay & Self-Hosted Product Intelligence*  
