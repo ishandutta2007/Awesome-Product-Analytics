@@ -1,105 +1,267 @@
-# Awesome-Product-Analytics
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Product Analytics Banner" width="100%"/>
+</p>
 
-## Top Product Analytics Tools Ecosystem
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Event Tracking, Session Replay & Self-Hosted Product Intelligence*  
-**Last updated: March 2026**
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Product Analytics**. These tools help teams understand how users actually behave inside their product — tracking events, funnels, retention, and feature adoption, often alongside session replay and experimentation — so decisions are based on observed behavior rather than guesswork.
-
-**Examples** include PostHog, Amplitude, Mixpanel, Heap, Pendo, FullStory, LogRocket, OpenPanel, Countly, and Matomo (the category leaders).
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, event pipeline ownership, and transparent data retention — ideal for teams prioritizing privacy, avoiding per-event pricing that scales with growth, and building analytics infrastructure they fully control.
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## Table of Contents
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## SaaS/Hosted Platforms
-
-- **[Amplitude](https://amplitude.com/)**  
-  **Enterprise-grade behavioral analytics with warehouse-native queries.** Free plan includes **2M events/month**; Plus, Growth, and Enterprise tiers scale from there, with add-ons like Activation and Experimentation priced separately [citation:2]. **Startup program**: first year of the full Growth plan **100% free** (up to 100M events/month) for companies with <$10M raised and <20 employees; year two at **40% off** annual Plus, or drop to the free 2M-event plan and keep your data [citation:10]. **Best for enterprise teams** wanting deep behavioral analytics with warehouse-native flexibility.
-
-- **[Mixpanel](https://mixpanel.com/)**  
-  **Polished product analytics with session replay and A/B testing.** Free tier: **1M events/month** with core analytics and limited features; Growth starts around **$28/month per 10k events** after the base, scaling with volume; Enterprise is custom [citation:1]. **Key add-ons cost extra even on Growth**: Group Analytics (essential for B2B account-level analysis), Data Pipelines (warehouse export, estimated $19,000+/year at larger implementations), extra Session Replay beyond 20K/month, Warehouse Connectors, Feature Flags, and Experiment Reporting [citation:15]. **Mixpanel won't stop collecting data at your limit** — Free plan blocks report access until upgrade or reset; Growth charges overages at À La Carte rates the following month [citation:3]. **Startup program**: one year free with up to 1B events for companies <5 years old and <$8M raised, but data must start flowing within 90 days [citation:15]. **Best for product managers** wanting polished analytics, with the caveat that add-ons can 2-3x the base bill [citation:15].
-
-- **[Heap](https://heap.io/)**  
-  **Comprehensive autocapture with minimal instrumentation.** Free plan available; paid plans priced by quote. **Sense Chat** (AI-powered analysis) is free during beta with no announced plans to charge [citation:4]. **Best for teams wanting comprehensive event capture** without manually tagging every interaction.
-
-- **[Pendo](https://www.pendo.io/)**  
-  **Analytics combined with in-app guides, feedback, and roadmap tools.** Best for product teams wanting analytics tightly coupled with user onboarding and adoption workflows [citation:1].
-
-- **[FullStory](https://www.fullstory.com/)**  
-  **Session replay with product analytics and UX optimization.** Pricing is quote-based; **Vendr's median for 411 purchases is $27,500/year** [citation:5]. **Hidden costs to watch**: session overages at **1.5-2x effective per-session cost** (20-40% higher annual spend for teams that underestimate volume), **mobile sessions priced separately or at 30-50% premium**, data retention extensions adding 10-20%, and **implementation/onboarding fees of $5,000-$25,000** [citation:5][citation:13]. Multi-year contracts often carry **3-7% annual escalators** [citation:5]. **Best for UX and support teams** needing deep session replay, but budget carefully for overages.
-
-- **[LogRocket](https://logrocket.com/)**  
-  **Session replay with product analytics and error monitoring.** **Analytics, errors, and logs are unlimited on every plan** — you pay only for sessions captured [citation:6]. Small teams (5K-10K sessions/month) budget **$400-$700/month**; mid-market (25K-75K sessions) **$1,500-$3,500/month**; enterprise (150K-500K sessions) **$4,500-$9,000/month** per Vendr benchmarks [citation:14]. **Best for frontend teams** wanting replay plus error tracking without event-volume anxiety.
-
-- **[Contentsquare](https://contentsquare.com/)**  
-  **Digital experience analytics** with session replay, heatmaps, and journey analysis for enterprise websites and apps.
-
-- **[Kissmetrics](https://www.kissmetrics.io/)**  
-  **Person-based analytics** focused on customer journey and behavior across devices. Historically notable for its people-centric model.
-
-- **[Woopra](https://www.woopra.com/)**  
-  **Customer journey analytics** with real-time tracking and cross-platform behavior analysis.
-
-## Open-Source GitHub Projects
-
-- **[PostHog](https://github.com/PostHog/posthog)**  
-  **The leading open-source Product OS** — MIT licensed, self-hostable, **97% of companies use PostHog for free** [citation:9]. **One platform covering analytics, session replay, feature flags, experiments, error tracking, surveys, data warehouse, data pipelines, LLM observability, and logs** — no stitching five vendors together [citation:1][citation:9]. **Free tier resets monthly, no credit card**: **1M analytics events, 5K session recordings, 1M feature flag requests, 100K exceptions, 1,500 survey responses, 1M synced warehouse rows** [citation:9]. **Transparent pay-as-you-go** after the free tier, with **per-product billing limits** so you cannot be surprised by a viral spike [citation:9]. **Anonymous events cost up to 80% less than identified events** — tracking your marketing site anonymously significantly reduces costs [citation:1]. **Startup program**: **$50K in free credits** for qualifying startups [citation:1]. **Best for engineering-led teams** wanting one platform that scales from MVP to growth without rebuilding the stack [citation:1].
-
-- **[OpenPanel](https://github.com/Openpanel-dev/openpanel)**  
-  **Open-source Mixpanel alternative with product analytics and session replay** — self-hostable with **unlimited events** when you deploy it yourself [citation:7]. **Cloud pricing is refreshingly simple**: pay only for event volume, everything else unlimited — **5K events/month at $2.50, 100K at $20, 1M at $90, 10M at $350, 50M at $900** [citation:7]. **No tiers, no hidden costs, unlimited websites, users, dashboards, charts, and profiles** [citation:7]. **Best for teams wanting predictable event-based pricing** or self-hosting without event caps.
-
-- **[Countly](https://github.com/Countly/countly-server)**  
-  **Open-source product analytics and engagement platform** — self-hostable with feature flags, push notifications, crash reporting, and user profiles. **Best for mobile-first teams** wanting analytics plus engagement tooling in one self-hosted stack.
-
-- **[Matomo](https://github.com/matomo-org/matomo)**  
-  **Open-source web analytics with full data ownership** — the leading Google Analytics alternative, self-hosted with no data sampling and no external data sharing. **Best for teams prioritizing privacy and GDPR compliance** across web and product analytics.
-
-- **[Umami](https://github.com/umami-software/umami)**  
-  **Simple, self-hosted open-source analytics** — lightweight alternative to Google Analytics with a clean interface and no cookie banners required. **Best for small teams and side projects** wanting basic product and web analytics without overhead.
-
-- **[Plausible](https://github.com/plausible/analytics)**  
-  **Lightweight, privacy-focused open-source analytics** — self-hosted or cloud, with a simple dashboard and no cookie consent requirements. **Best for teams wanting privacy-first analytics** without a heavy feature set.
-
-- **[Jitsu](https://github.com/jitsucom/jitsu)**  
-  **Open-source event data collection platform** — streams website, app, and CRM data to your own data warehouse (Snowflake, BigQuery, Redshift, Postgres, ClickHouse) with a Segment-like tag. **Best for teams wanting to own their event pipeline** and analyze product data in their warehouse.
-
-- **[OpenReplay](https://github.com/openreplay/openreplay)**  
-  **Open-source session replay and product analytics** — self-hostable with replay, co-browsing, and funnel analysis. **Best for teams prioritizing session replay** without per-session SaaS pricing.
-
-### Additional Strong Open-Source Options
-
-- **Metabase** — Open-source BI tool for exploring product data with a visual query builder and dashboards.
-- **Apache Superset** — Enterprise-grade open-source BI with rich visualization and SQL Lab.
-- **Grafana** — Open-source dashboards for product metrics alongside infrastructure monitoring.
-- **Flagsmith** — Open-source feature flags and remote config, often paired with analytics for A/B testing.
-
-**Frameworks for building custom systems**: Combine **PostHog** for the most complete open-source Product OS with analytics, replay, flags, and error tracking in one platform, **OpenPanel** for predictable event-based pricing or unlimited self-hosted events, **Jitsu** for owning the event pipeline into your own warehouse, **Matomo** or **Umami** for privacy-first web analytics, and **OpenReplay** for self-hosted session replay — to build a product analytics stack tailored to your event volume, privacy requirements, and tolerance for operational overhead.
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Product analytics tools differ significantly in pricing model, add-on costs, and data ownership. **Mixpanel's base price is misleading** — Group Analytics, Data Pipelines, and extra Session Replay are paid add-ons even on Growth, and together can 2-3x the bill [citation:15]. **FullStory's overage fees run 1.5-2x per-session cost**, mobile sessions are priced separately, and implementation can add $5,000-$25,000 [citation:5][citation:13]. **LogRocket keeps analytics, errors, and logs unlimited on every plan** — you only pay for sessions [citation:6]. **PostHog's free tier is genuinely generous and resets monthly** with no credit card required, and billing limits prevent surprise charges [citation:9]. **Self-hosting removes event-volume pricing but adds operational responsibility** — you own upgrades, scaling, and data retention.
-- Self-hosted open-source solutions require proper event pipeline infrastructure (Kafka or similar for high volume), database sizing for event storage, and monitoring of ingestion latency.
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Product-Analytics/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Product-Analytics?style=flat-square&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Product-Analytics/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Product-Analytics?style=flat-square&color=blue" alt="GitHub Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Product-Analytics/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Product-Analytics?style=flat-square&color=green" alt="Issues"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Product-Analytics/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-informational?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
-**Made for product managers, growth engineers, and teams building data-informed product experiences.**
-Let's make product analytics more open, transparent, and event-pricing-honest.
+# 🚀 Awesome Product Analytics & Behavioral Intelligence
+
+> 🎯 **A comprehensive, community-curated directory of top SaaS platforms and open-source GitHub projects for Product Analytics, User Event Tracking, Session Replay, Customer Journey Mapping, and Self-Hosted Product Intelligence.**
+
+Product analytics tools empower software teams, growth engineers, and product managers to understand how users actually interact with their web and mobile applications. By observing real-world behavioral funnels, retention trends, feature adoption curves, and playback recordings, engineering and product teams can replace intuition with empirical data.
+
+---
+
+## 📑 Table of Contents
+
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Hosted Platforms](#-saas--hosted-platforms)
+  - [📊 SaaS Comparison Matrix](#-saas-comparison-matrix)
+  - [🔍 SaaS Platform Deep Dives](#-saas-platform-deep-dives)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+  - [⭐ Open-Source Leaderboard](#-open-source-leaderboard)
+  - [🛠️ Open-Source Project Deep Dives](#️-open-source-project-deep-dives)
+- [🧩 Architecture & Stack Frameworks](#-architecture--stack-frameworks)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [⭐ Star History](#-star-history)
+- [⚖️ Disclaimer](#-disclaimer)
+
+---
+
+## 🌐 Sector Overview & Market Dynamics
+
+The global product analytics market is valued at approximately **$10.5 Billion to $13.0 Billion (2025–2026)** and is projected to expand rapidly past **$25.0 Billion to $46.0+ Billion by 2030–2035**, compounding at an estimated **12.0% – 14.9% CAGR**. Growth is driven by the industry-wide mandate for **Product-Led Growth (PLG)**, warehouse-native data collection (Snowflake, BigQuery, ClickHouse), and AI-augmented predictive journey analysis.
+
+The market structure is **moderately fragmented and intensely competitive rather than a winner-take-all monopoly**:
+- **Enterprise Incumbents**: Well-funded leaders like *Contentsquare*, *Pendo*, *Amplitude*, and *Mixpanel* control large enterprise footprints and complex multi-product digital experience suites.
+- **Continuous Disruption**: The market resists total concentration because low-cost SaaS alternatives and privacy-first, self-hosted open-source stacks (*PostHog*, *Umami*, *OpenPanel*, *OpenReplay*) aggressively capture developer-led startups and compliance-sensitive organizations unwilling to pay punitive per-event SaaS escalators.
+
+---
+
+## 🏢 SaaS & Hosted Platforms
+
+### 📊 SaaS Comparison Matrix
+
+The table below benchmarks prominent commercial SaaS product analytics platforms, sorted in **descending order by company size / valuation / market capitalization**.
+
+| 🏷️ Product | 💰 Company Size / Valuation | 💳 Starting Pricing | 🎁 Free Tier Limit | 🎯 Core Capabilities |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Contentsquare](https://contentsquare.com/)** | **$5.6B Valuation** *(Series F $600M; $250M+ ARR)* | **$39/month** *(Growth plan base; Pro & Enterprise custom quote)* | **Free Forever** *(up to 200,000 sessions/mo, 10k session replays, 1 project, 1 mo retention)* + **15-day Growth trial** | Enterprise digital experience analytics, session replay, customer journey maps, frustration scoring, zone-based heatmaps. |
+| **[Pendo](https://www.pendo.io/)** | **$2.6B Valuation** *(Series F $150M; $150M+ ARR)* | **$7,000/year** *(~$583/mo Base plan up to 2k MAUs; Starter tier $2,000/yr)* | **Free Forever** *(up to 500 MAUs, core product analytics, in-app guides, NPS surveys, 12 mo retention)* | In-app user onboarding guides, feature adoption analytics, NPS sentiment collection, feedback roadmapping. |
+| **[FullStory](https://www.fullstory.com/)** | **$1.8B Valuation** *(Series D $103M; $100M+ ARR)* | **$299/month** *(~$3,588/yr entry Business tier; median enterprise contract ~$27,500/yr)* | **14-day free trial** *(5,000 sessions, 20 seats, Business features)* + **Free Plan** *(1,000 sessions/mo, 10 users, 12 mo retention)* | High-fidelity session replay, error capture, rage click & dead click detection, conversion funnel diagnostics. |
+| **[Heap](https://heap.io/)** | **$1.4B Valuation** *(Acquired by Contentsquare; $205M raised)* | **$3,600/year** *(~$300/mo for Growth plan base up to 300k sessions/yr)* | **Free Forever** *(up to 10,000 sessions/month, 1 project, 6 months retention, unlimited user licenses)* | Retroactive event autocapture (no manual event tagging required), Sense AI journey insights, funnel & retention charts. |
+| **[Amplitude](https://amplitude.com/)** | **$1.3B Market Cap** *(Public NASDAQ: AMPL; $290M+ ARR)* | **$49/month** *(Plus tier base, or $0 base + $0.00025/event beyond 2M events/mo)* | **Free Forever** *(2,000,000 events/month, unlimited seats, 10,000 monthly session replays, core analytics)* | Behavioral cohorting, warehouse-native SQL queries, event funnels, predictive churn modeling, experimentation. |
+| **[Mixpanel](https://mixpanel.com/)** | **$1.05B Valuation** *(Series C $200M; $100M+ ARR)* | **$28/month** *(Growth tier base monthly / $20/mo annual; +$0.28 per 1,000 events over limit)* | **Free Forever** *(1,000,000 events/month, 10,000 session replays, unlimited seats, 5 saved reports per user)* | Event-driven product funnels, retention matrix, interactive cohort analysis, built-in session replay, A/B report tracking. |
+| **[LogRocket](https://logrocket.com/)** | **~$400M Valuation** *(Series C $25M; $52M raised; ~$40M ARR)* | **$69/month** *(billed annually; $99/mo monthly for Team plan with 10k sessions/mo)* | **Free Forever** *(1,000 sessions/month, 1-month data retention, up to 3 user seats, unlimited errors & dashboards)* | Session recording paired with frontend error tracking, network performance logging, CPU/memory profiling, UX funnels. |
+| **[Kissmetrics](https://www.kissmetrics.io/)** | **~$15M Valuation** *(Acquired / Private; ~$8M estimated ARR)* | **$99/month** *(Growth plan starting at 500,000 events/month; Silver plan at $299/mo)* | **Free Forever** *(100,000 events/month, autocapture, AI chat metrics, full CLI & API access)* + **14-day trial** | Person-centric analytics, multi-touch conversion attribution, customer lifecycle tracking, revenue cohort analysis. |
+| **[Woopra](https://www.woopra.com/)** | **~$10M Valuation** *(Bootstrapped / Private; ~$5M estimated ARR)* | **$999/month** *(Pro plan base starting at 5,000,000 actions/month, 25 team members)* | **30-day free trial** *(full Pro tier access up to 5M events, 2-year retention; no permanent free plan)* | Real-time omnichannel customer journey tracking, automated action triggers, user profile enrichment. |
+
+---
+
+### 🔍 SaaS Platform Deep Dives
+
+- **[Contentsquare](https://contentsquare.com/)**  
+  *Digital experience intelligence for high-traffic web and mobile apps.* Incorporates session replay, AI frustration scoring, zone-based revenue attribution, and form analytics. Contentsquare has consolidated the market by acquiring Heap and Hotjar. Best suited for enterprise e-commerce and consumer brands.
+
+- **[Pendo](https://www.pendo.io/)**  
+  *Product experience platform pairing product analytics with user onboarding.* Offers in-app walkthrough guides, modal announcements, NPS feedback surveys, and feature adoption scoring. Best suited for B2B product teams looking to drive feature adoption without engineering involvement for every guide.
+
+- **[FullStory](https://www.fullstory.com/)**  
+  *Session replay and digital experience analytics.* Indexed DOM capture lets UX and product teams replay exact customer sessions, identify friction points (rage clicks, dead clicks, error loops), and correlate UI bugs directly with revenue drop-offs.
+
+- **[Heap](https://heap.io/)**  
+  *Autocapture behavioral analytics.* Heap automatically logs every click, gesture, swipe, and pageview out-of-the-box, allowing teams to retroactively define events without writing code or losing historical tracking data.
+
+- **[Amplitude](https://amplitude.com/)**  
+  *Enterprise behavioral analytics with warehouse-native flexibility.* Enables deep cohort segmentation, predictive churn metrics, and multi-path funnel analysis. Its startup program offers eligible companies 100M events/month for one full year free.
+
+- **[Mixpanel](https://mixpanel.com/)**  
+  *Event-based product analytics with an intuitive self-serve query builder.* Provides interactive funnels, retention cohorts, session replays, and experimentation reports. Mixpanel's startup program provides up to 1B events for one year free for qualifying teams.
+
+- **[LogRocket](https://logrocket.com/)**  
+  *Session replay integrated with frontend telemetry and error monitoring.* Combines full DOM video-like playback with console logs, network request/response timings, and Redux/Vue state changes. Keeps errors and dashboards unlimited across plans.
+
+- **[Kissmetrics](https://www.kissmetrics.io/)**  
+  *Person-based tracking focused on multi-touch customer journey attribution.* Historically pioneered individual-centric metrics rather than anonymous aggregate counters, mapping marketing channels to lifetime subscriber value.
+
+- **[Woopra](https://www.woopra.com/)**  
+  *Real-time customer journey analytics.* Tracks user touchpoints across web, mobile, email, and helpdesk tools into a unified customer profile with automated webhook trigger capabilities.
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+Open-source and self-hosted product analytics solutions provide **complete data sovereignty**, **GDPR/CCPA compliance**, and **zero per-event SaaS markup**. They eliminate vendor lock-in and allow direct SQL/warehouse querying against your own infrastructure (PostgreSQL, ClickHouse, Kafka, Snowflake).
+
+### ⭐ Open-Source Leaderboard
+
+Sorted in **descending order by GitHub star count**.
+
+| 🏆 Project | ⭐ GitHub Stars | ⚖️ License | 🛠️ Primary Tech Stack | 💡 Primary Use Case |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Metabase](https://github.com/metabase/metabase)** | [![GitHub stars](https://img.shields.io/github/stars/metabase/metabase?style=social&color=white)](https://github.com/metabase/metabase/stargazers) | AGPL-3.0 / Commercial | Clojure, TypeScript, SQL | Self-hosted BI & product analytics dashboards with visual query builder. |
+| **[PostHog](https://github.com/PostHog/posthog)** | [![GitHub stars](https://img.shields.io/github/stars/PostHog/posthog?style=social&color=white)](https://github.com/PostHog/posthog/stargazers) | MIT / Commercial | Python, TypeScript, ClickHouse, Kafka | The complete open-source Product OS: analytics, replay, feature flags & surveys. |
+| **[Umami](https://github.com/umami-software/umami)** | [![GitHub stars](https://img.shields.io/github/stars/umami-software/umami?style=social&color=white)](https://github.com/umami-software/umami/stargazers) | MIT | Next.js, Prisma, PostgreSQL, MySQL | Lightweight, privacy-focused, cookie-free analytics alternative to Google Analytics. |
+| **[Plausible](https://github.com/plausible/analytics)** | [![GitHub stars](https://img.shields.io/github/stars/plausible/analytics?style=social&color=white)](https://github.com/plausible/analytics/stargazers) | AGPL-3.0 | Elixir, Phoenix, ClickHouse, PostgreSQL | Lightweight, privacy-first web & product analytics with zero cookies and no banner requirement. |
+| **[Matomo](https://github.com/matomo-org/matomo)** | [![GitHub stars](https://img.shields.io/github/stars/matomo-org/matomo?style=social&color=white)](https://github.com/matomo-org/matomo/stargazers) | GPL-3.0 | PHP, JavaScript, MySQL/MariaDB | Enterprise web & product analytics with 100% data ownership and GDPR compliance. |
+| **[rrweb](https://github.com/rrweb-io/rrweb)** | [![GitHub stars](https://img.shields.io/github/stars/rrweb-io/rrweb?style=social&color=white)](https://github.com/rrweb-io/rrweb/stargazers) | MIT | TypeScript | Open-source web session recorder and player powering modern session replay tools. |
+| **[OpenReplay](https://github.com/openreplay/openreplay)** | [![GitHub stars](https://img.shields.io/github/stars/openreplay/openreplay?style=social&color=white)](https://github.com/openreplay/openreplay/stargazers) | ELv2 / Apache-2.0 | Go, TypeScript, ClickHouse, Kafka | Self-hosted session replay, devtools inspection, error tracking, and funnel analysis. |
+| **[Highlight.io](https://github.com/highlight/highlight)** | [![GitHub stars](https://img.shields.io/github/stars/highlight/highlight?style=social&color=white)](https://github.com/highlight/highlight/stargazers) | Apache-2.0 | Go, React, ClickHouse, OpenTelemetry | Full-stack observability combining session replay, frontend error monitoring & traces. |
+| **[GrowthBook](https://github.com/growthbook/growthbook)** | [![GitHub stars](https://img.shields.io/github/stars/growthbook/growthbook?style=social&color=white)](https://github.com/growthbook/growthbook/stargazers) | MIT | TypeScript, Node.js, Next.js | Open-source feature flagging and statistical A/B testing connected to your data warehouse. |
+| **[OpenPanel](https://github.com/Openpanel-dev/openpanel)** | [![GitHub stars](https://img.shields.io/github/stars/Openpanel-dev/openpanel?style=social&color=white)](https://github.com/Openpanel-dev/openpanel/stargazers) | AGPL-3.0 | Next.js, Rust, ClickHouse, Redis | Open-source Mixpanel alternative with event tracking, funnels & session recordings. |
+| **[Snowplow](https://github.com/snowplow/snowplow)** | [![GitHub stars](https://img.shields.io/github/stars/snowplow/snowplow?style=social&color=white)](https://github.com/snowplow/snowplow/stargazers) | Apache-2.0 / BSL | Scala, Java, Kafka, Snowflake, BigQuery | Enterprise-grade behavioral event data pipeline generating clean, warehouse-ready tables. |
+| **[Flagsmith](https://github.com/Flagsmith/flagsmith)** | [![GitHub stars](https://img.shields.io/github/stars/Flagsmith/flagsmith?style=social&color=white)](https://github.com/Flagsmith/flagsmith/stargazers) | BSD-3-Clause | Python, Django, React, PostgreSQL | Open-source feature flags and remote configuration to measure feature rollout impact. |
+| **[Countly](https://github.com/Countly/countly-server)** | [![GitHub stars](https://img.shields.io/github/stars/Countly/countly-server?style=social&color=white)](https://github.com/Countly/countly-server/stargazers) | AGPL-3.0 / Commercial | Node.js, MongoDB, JavaScript | Mobile & web product analytics with push notifications, crashes & user profiles. |
+| **[Jitsu](https://github.com/jitsucom/jitsu)** | [![GitHub stars](https://img.shields.io/github/stars/jitsucom/jitsu?style=social&color=white)](https://github.com/jitsucom/jitsu/stargazers) | MIT | TypeScript, Go, ClickHouse, Kafka | Open-source data ingestion engine streaming user event data directly into data warehouses. |
+| **[Ackee](https://github.com/electerious/Ackee)** | [![GitHub stars](https://img.shields.io/github/stars/electerious/Ackee?style=social&color=white)](https://github.com/electerious/Ackee/stargazers) | MIT | Node.js, MongoDB, GraphQL | Node.js-based self-hosted analytics for developers seeking a 100% private tracker. |
+| **[RudderStack](https://github.com/rudderlabs/rudder-server)** | [![GitHub stars](https://img.shields.io/github/stars/rudderlabs/rudder-server?style=social&color=white)](https://github.com/rudderlabs/rudder-server/stargazers) | SSPL-1.0 | Go, PostgreSQL, Redis | Open-source customer data pipeline (Segment alternative) for developer-first tracking. |
+| **[Aptabase](https://github.com/aptabase/aptabase)** | [![GitHub stars](https://img.shields.io/github/stars/aptabase/aptabase?style=social&color=white)](https://github.com/aptabase/aptabase/stargazers) | AGPL-3.0 | Rust, TypeScript, ClickHouse | Open-source, privacy-first analytics built specifically for desktop and mobile apps. |
+| **[Swetrix](https://github.com/swetrix/swetrix)** | [![GitHub stars](https://img.shields.io/github/stars/swetrix/swetrix?style=social&color=white)](https://github.com/swetrix/swetrix/stargazers) | AGPL-3.0 | TypeScript, Node.js, ClickHouse | Lightweight, cookieless web & product analytics suite with performance and error tracking. |
+
+---
+
+### 🛠️ Open-Source Project Deep Dives
+
+- **[PostHog](https://github.com/PostHog/posthog)** [![GitHub stars](https://img.shields.io/github/stars/PostHog/posthog?style=social&color=white)](https://github.com/PostHog/posthog/stargazers)  
+  *The undisputed leader in open-source product intelligence.* Delivers an all-in-one Product OS featuring event analytics, session recordings, heatmaps, feature flags, A/B experiments, survey prompts, error tracking, and warehouse data synchronization. Runs on ClickHouse for lightning-fast aggregation over billions of events.
+
+- **[Umami](https://github.com/umami-software/umami)** [![GitHub stars](https://img.shields.io/github/stars/umami-software/umami?style=social&color=white)](https://github.com/umami-software/umami/stargazers)  
+  *A clean, fast, privacy-first alternative to Google Analytics.* Built with Next.js and Prisma, supporting MySQL or PostgreSQL. Captures pageviews, custom events, device metrics, and referral funnels without storing personally identifiable information or triggering cookie banners.
+
+- **[Plausible Analytics](https://github.com/plausible/analytics)** [![GitHub stars](https://img.shields.io/github/stars/plausible/analytics?style=social&color=white)](https://github.com/plausible/analytics/stargazers)  
+  *Lightweight and ultra-fast web analytics.* With a script footprint under 1 KB, Plausible provides an intuitive single-page dashboard displaying traffic sources, top pages, conversion goals, and custom event funnels without cookie banners.
+
+- **[Matomo](https://github.com/matomo-org/matomo)** [![GitHub stars](https://img.shields.io/github/stars/matomo-org/matomo?style=social&color=white)](https://github.com/matomo-org/matomo/stargazers)  
+  *The battle-tested, enterprise open-source analytics platform.* Provides 100% data ownership, full GDPR compliance audits, tag manager, heatmaps, session recordings, and custom goal funnels.
+
+- **[rrweb](https://github.com/rrweb-io/rrweb)** [![GitHub stars](https://img.shields.io/github/stars/rrweb-io/rrweb?style=social&color=white)](https://github.com/rrweb-io/rrweb/stargazers)  
+  *The foundational open-source web session recording engine.* rrweb serializes DOM mutations and user interactions (mouse movement, scroll, inputs) into a lightweight JSON event stream that can be accurately replayed. Powers many commercial and self-hosted session playback tools.
+
+- **[OpenReplay](https://github.com/openreplay/openreplay)** [![GitHub stars](https://img.shields.io/github/stars/openreplay/openreplay?style=social&color=white)](https://github.com/openreplay/openreplay/stargazers)  
+  *Self-hosted session replay and developer monitoring suite.* Replays exactly what users did, while simultaneously recording network payloads, Redux actions, console logs, and UX frustration indicators.
+
+- **[Highlight.io](https://github.com/highlight/highlight)** [![GitHub stars](https://img.shields.io/github/stars/highlight/highlight?style=social&color=white)](https://github.com/highlight/highlight/stargazers)  
+  *Open-source full-stack observability platform.* Unifies session playback with backend distributed tracing and frontend exception tracking, allowing engineers to jump directly from a server error trace to the user's recorded session.
+
+- **[GrowthBook](https://github.com/growthbook/growthbook)** [![GitHub stars](https://img.shields.io/github/stars/growthbook/growthbook?style=social&color=white)](https://github.com/growthbook/growthbook/stargazers)  
+  *Warehouse-native feature flagging and experimentation engine.* Connects directly to Snowflake, BigQuery, ClickHouse, or Redshift to analyze A/B test experiments using Bayesian or Frequentist statistical models without syncing event data to external servers.
+
+- **[OpenPanel](https://github.com/Openpanel-dev/openpanel)** [![GitHub stars](https://img.shields.io/github/stars/Openpanel-dev/openpanel?style=social&color=white)](https://github.com/Openpanel-dev/openpanel/stargazers)  
+  *Modern open-source Mixpanel alternative.* Built on ClickHouse and Rust, OpenPanel offers event analytics, user profiles, funnel analysis, and session replay with transparent, self-hostable licensing.
+
+- **[Snowplow](https://github.com/snowplow/snowplow)** [![GitHub stars](https://img.shields.io/github/stars/snowplow/snowplow?style=social&color=white)](https://github.com/snowplow/snowplow/stargazers)  
+  *Industrial-grade behavioral data pipeline.* Validates, enriches, and models real-time behavioral event streams into your cloud data warehouse with schema enforcement and custom entity models.
+
+- **[Flagsmith](https://github.com/Flagsmith/flagsmith)** [![GitHub stars](https://img.shields.io/github/stars/Flagsmith/flagsmith?style=social&color=white)](https://github.com/Flagsmith/flagsmith/stargazers)  
+  *Open-source feature flag and remote configuration engine.* Lets teams toggle features dynamically, run multivariate experiments, and segment releases to specific user cohorts.
+
+- **[Countly](https://github.com/Countly/countly-server)** [![GitHub stars](https://img.shields.io/github/stars/Countly/countly-server?style=social&color=white)](https://github.com/Countly/countly-server/stargazers)  
+  *Mobile-first product analytics and engagement platform.* Provides real-time event analytics, in-app push messaging, crash analytics, and user cohort management for iOS, Android, and web apps.
+
+- **[Jitsu](https://github.com/jitsucom/jitsu)** [![GitHub stars](https://img.shields.io/github/stars/jitsucom/jitsu?style=social&color=white)](https://github.com/jitsucom/jitsu/stargazers)  
+  *Open-source customer data ingestion platform.* Acts as a lightweight, modern Segment replacement that captures web events and streams them with schema transformation directly into ClickHouse, BigQuery, or Postgres.
+
+- **[Ackee](https://github.com/electerious/Ackee)** [![GitHub stars](https://img.shields.io/github/stars/electerious/Ackee?style=social&color=white)](https://github.com/electerious/Ackee/stargazers)  
+  *Self-hosted Node.js analytics server.* Features a clean, minimalist UI for tracking page views, bounce rates, visit durations, and referrer data with GraphQL API support and strict privacy protection.
+
+- **[RudderStack](https://github.com/rudderlabs/rudder-server)** [![GitHub stars](https://img.shields.io/github/stars/rudderlabs/rudder-server?style=social&color=white)](https://github.com/rudderlabs/rudder-server/stargazers)  
+  *Enterprise customer data infrastructure.* Collects, routes, and transforms event data from web, mobile, and server sources to hundreds of analytics, marketing, and warehouse destinations.
+
+- **[Aptabase](https://github.com/aptabase/aptabase)** [![GitHub stars](https://img.shields.io/github/stars/aptabase/aptabase?style=social&color=white)](https://github.com/aptabase/aptabase/stargazers)  
+  *Privacy-first telemetry for mobile, desktop, and web apps.* Written in Rust and ClickHouse, Aptabase provides native SDKs for Flutter, React Native, Swift, Tauri, and Electron with zero device profiling.
+
+- **[Swetrix](https://github.com/swetrix/swetrix)** [![GitHub stars](https://img.shields.io/github/stars/swetrix/swetrix?style=social&color=white)](https://github.com/swetrix/swetrix/stargazers)  
+  *Fully open-source, cookieless, and GDPR/CCPA/PECR compliant analytics platform.* Tracks traffic sources, custom event funnels, page load performance, and client-side JavaScript errors.
+
+---
+
+## 🧩 Architecture & Stack Frameworks
+
+When architecting a production product analytics stack, modern engineering teams frequently combine complementary open-source components:
+
+```
+┌────────────────────────────────────────────────────────┐
+│             Web, Mobile & Backend SDKs                 │
+│      (JavaScript, React, iOS, Android, Python)         │
+└──────────────────────────┬─────────────────────────────┘
+                           │ Event Stream & DOM Mutations
+                           ▼
+┌────────────────────────────────────────────────────────┐
+│             Event Ingestion & Routing Layer            │
+│                 (Jitsu / RudderStack)                  │
+└──────────────┬───────────────────────────┬─────────────┘
+               │ Structured Events         │ Raw Sessions
+               ▼                           ▼
+┌──────────────────────────────┐ ┌───────────────────────┐
+│     ClickHouse / OLAP DB     │ │  Session Replay Store │
+│  (Fast aggregate queries)    │ │  (OpenReplay / rrweb) │
+└──────────────┬───────────────┘ └───────────────────────┘
+               │
+               ▼
+┌────────────────────────────────────────────────────────┐
+│             Visualization & Experimentation            │
+│       (PostHog / OpenPanel / GrowthBook / Metabase)    │
+└────────────────────────────────────────────────────────┘
+```
+
+- **For Full-Stack Product OS**: Deploy **PostHog** on Kubernetes/ClickHouse for all-in-one events, session replays, feature flags, and survey analysis.
+- **For Warehouse-Native Analytics**: Use **Jitsu** or **Snowplow** to stream clean events into Snowflake or ClickHouse, paired with **GrowthBook** for A/B testing and **Metabase** for BI queries.
+- **For Deep Session Debugging**: Pair **OpenReplay** or **Highlight.io** with your application frontend to inspect network requests, Redux states, and DOM recordings.
+- **For Lightweight Privacy Compliance**: Deploy **Umami** or **Plausible** on a minimal VPS for clean, cookie-banner-free tracking.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions from the developer and product community are warmly welcomed!
+
+1. 🍴 **Fork the repository** on GitHub.
+2. 🌿 **Create a descriptive feature branch** (`git checkout -b add-analytics-tool`).
+3. 📝 **Add or update an entry** in `README.md` following the existing format:
+   - Include tool name, official URL, exact starting pricing, free tier limits, and factual descriptions.
+   - For open-source tools, include the repository URL, exact license, and primary tech stack.
+4. 🧪 **Verify all links and markdown formatting** before submitting.
+5. 🚀 **Submit a Pull Request** with a concise explanation of why the tool should be added.
+
+---
+
+## 💖 Support
+
+If you find this curated directory helpful for evaluating product analytics stacks, consider supporting the project:
+
+- ⭐ **Star this repository** to help other product teams and developers discover it.
+- 🍴 **Fork and contribute** updates, new tools, and benchmarks.
+- 📢 **Share this list** on Twitter/X, LinkedIn, Reddit, or Discord communities.
+- ☕ **Sponsor or buy a coffee**: Support ongoing maintenance via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Your sponsorship directly funds research, benchmark verifications, and directory curation. Thank you for being part of the open-source community!
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Product-Analytics&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Product-Analytics&type=date&legend=top-left)
+
+---
+
+## ⚖️ Disclaimer
+
+- This repository is a **community-curated informational resource** — it does not constitute financial, investment, or commercial endorsement of any vendor.
+- SaaS pricing, session limits, and free tiers change frequently. The pricing figures and limits listed represent verified tier benchmarks as of early 2026. Always consult official vendor pricing pages before entering commercial contracts.
+- Self-hosting open-source analytics platforms eliminates recurring SaaS subscription costs but transfers operational responsibilities (scaling OLAP databases like ClickHouse, managing Kafka queues, monitoring storage retention, and performing security patches) to your team.
+
+---
+
+<p align="center">
+  <b>Awesome Product Analytics</b> • Maintained with ❤️ by <a href="https://github.com/ishandutta2007">Ishan Dutta</a> and community contributors.
+</p>
