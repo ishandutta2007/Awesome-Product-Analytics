@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Product-Analytics/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Product-Analytics?style=flat-square&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Product-Analytics/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Product-Analytics?style=flat-square&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Product-Analytics/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Product-Analytics?style=flat-square&color=blue" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Product-Analytics/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Product-Analytics?style=flat-square&color=green" alt="Issues"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Product-Analytics/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-informational?style=flat-square" alt="License"/></a>
@@ -105,82 +105,82 @@ Open-source and self-hosted product analytics solutions provide **complete data 
 
 ### ⭐ Open-Source Leaderboard
 
-Sorted in **descending order by GitHub star count**.
+Sorted in **descending order by GitHub Stars_Count**.
 
-| 🏆 Project | ⭐ GitHub Stars | ⚖️ License | 🛠️ Primary Tech Stack | 💡 Primary Use Case |
+| 🏆 Project | ⭐ GitHub_Stars | ⚖️ License | 🛠️ Primary Tech Stack | 💡 Primary Use Case |
 | :--- | :--- | :--- | :--- | :--- |
-| **[Metabase](https://github.com/metabase/metabase)** | [![GitHub stars](https://img.shields.io/github/stars/metabase/metabase?style=social&color=white)](https://github.com/metabase/metabase/stargazers) | AGPL-3.0 / Commercial | Clojure, TypeScript, SQL | Self-hosted BI & product analytics dashboards with visual query builder. |
-| **[PostHog](https://github.com/PostHog/posthog)** | [![GitHub stars](https://img.shields.io/github/stars/PostHog/posthog?style=social&color=white)](https://github.com/PostHog/posthog/stargazers) | MIT / Commercial | Python, TypeScript, ClickHouse, Kafka | The complete open-source Product OS: analytics, replay, feature flags & surveys. |
-| **[Umami](https://github.com/umami-software/umami)** | [![GitHub stars](https://img.shields.io/github/stars/umami-software/umami?style=social&color=white)](https://github.com/umami-software/umami/stargazers) | MIT | Next.js, Prisma, PostgreSQL, MySQL | Lightweight, privacy-focused, cookie-free analytics alternative to Google Analytics. |
-| **[Plausible](https://github.com/plausible/analytics)** | [![GitHub stars](https://img.shields.io/github/stars/plausible/analytics?style=social&color=white)](https://github.com/plausible/analytics/stargazers) | AGPL-3.0 | Elixir, Phoenix, ClickHouse, PostgreSQL | Lightweight, privacy-first web & product analytics with zero cookies and no banner requirement. |
-| **[Matomo](https://github.com/matomo-org/matomo)** | [![GitHub stars](https://img.shields.io/github/stars/matomo-org/matomo?style=social&color=white)](https://github.com/matomo-org/matomo/stargazers) | GPL-3.0 | PHP, JavaScript, MySQL/MariaDB | Enterprise web & product analytics with 100% data ownership and GDPR compliance. |
-| **[rrweb](https://github.com/rrweb-io/rrweb)** | [![GitHub stars](https://img.shields.io/github/stars/rrweb-io/rrweb?style=social&color=white)](https://github.com/rrweb-io/rrweb/stargazers) | MIT | TypeScript | Open-source web session recorder and player powering modern session replay tools. |
-| **[OpenReplay](https://github.com/openreplay/openreplay)** | [![GitHub stars](https://img.shields.io/github/stars/openreplay/openreplay?style=social&color=white)](https://github.com/openreplay/openreplay/stargazers) | ELv2 / Apache-2.0 | Go, TypeScript, ClickHouse, Kafka | Self-hosted session replay, devtools inspection, error tracking, and funnel analysis. |
-| **[Highlight.io](https://github.com/highlight/highlight)** | [![GitHub stars](https://img.shields.io/github/stars/highlight/highlight?style=social&color=white)](https://github.com/highlight/highlight/stargazers) | Apache-2.0 | Go, React, ClickHouse, OpenTelemetry | Full-stack observability combining session replay, frontend error monitoring & traces. |
-| **[GrowthBook](https://github.com/growthbook/growthbook)** | [![GitHub stars](https://img.shields.io/github/stars/growthbook/growthbook?style=social&color=white)](https://github.com/growthbook/growthbook/stargazers) | MIT | TypeScript, Node.js, Next.js | Open-source feature flagging and statistical A/B testing connected to your data warehouse. |
-| **[OpenPanel](https://github.com/Openpanel-dev/openpanel)** | [![GitHub stars](https://img.shields.io/github/stars/Openpanel-dev/openpanel?style=social&color=white)](https://github.com/Openpanel-dev/openpanel/stargazers) | AGPL-3.0 | Next.js, Rust, ClickHouse, Redis | Open-source Mixpanel alternative with event tracking, funnels & session recordings. |
-| **[Snowplow](https://github.com/snowplow/snowplow)** | [![GitHub stars](https://img.shields.io/github/stars/snowplow/snowplow?style=social&color=white)](https://github.com/snowplow/snowplow/stargazers) | Apache-2.0 / BSL | Scala, Java, Kafka, Snowflake, BigQuery | Enterprise-grade behavioral event data pipeline generating clean, warehouse-ready tables. |
-| **[Flagsmith](https://github.com/Flagsmith/flagsmith)** | [![GitHub stars](https://img.shields.io/github/stars/Flagsmith/flagsmith?style=social&color=white)](https://github.com/Flagsmith/flagsmith/stargazers) | BSD-3-Clause | Python, Django, React, PostgreSQL | Open-source feature flags and remote configuration to measure feature rollout impact. |
-| **[Countly](https://github.com/Countly/countly-server)** | [![GitHub stars](https://img.shields.io/github/stars/Countly/countly-server?style=social&color=white)](https://github.com/Countly/countly-server/stargazers) | AGPL-3.0 / Commercial | Node.js, MongoDB, JavaScript | Mobile & web product analytics with push notifications, crashes & user profiles. |
-| **[Jitsu](https://github.com/jitsucom/jitsu)** | [![GitHub stars](https://img.shields.io/github/stars/jitsucom/jitsu?style=social&color=white)](https://github.com/jitsucom/jitsu/stargazers) | MIT | TypeScript, Go, ClickHouse, Kafka | Open-source data ingestion engine streaming user event data directly into data warehouses. |
-| **[Ackee](https://github.com/electerious/Ackee)** | [![GitHub stars](https://img.shields.io/github/stars/electerious/Ackee?style=social&color=white)](https://github.com/electerious/Ackee/stargazers) | MIT | Node.js, MongoDB, GraphQL | Node.js-based self-hosted analytics for developers seeking a 100% private tracker. |
-| **[RudderStack](https://github.com/rudderlabs/rudder-server)** | [![GitHub stars](https://img.shields.io/github/stars/rudderlabs/rudder-server?style=social&color=white)](https://github.com/rudderlabs/rudder-server/stargazers) | SSPL-1.0 | Go, PostgreSQL, Redis | Open-source customer data pipeline (Segment alternative) for developer-first tracking. |
-| **[Aptabase](https://github.com/aptabase/aptabase)** | [![GitHub stars](https://img.shields.io/github/stars/aptabase/aptabase?style=social&color=white)](https://github.com/aptabase/aptabase/stargazers) | AGPL-3.0 | Rust, TypeScript, ClickHouse | Open-source, privacy-first analytics built specifically for desktop and mobile apps. |
-| **[Swetrix](https://github.com/swetrix/swetrix)** | [![GitHub stars](https://img.shields.io/github/stars/swetrix/swetrix?style=social&color=white)](https://github.com/swetrix/swetrix/stargazers) | AGPL-3.0 | TypeScript, Node.js, ClickHouse | Lightweight, cookieless web & product analytics suite with performance and error tracking. |
+| **[Metabase](https://github.com/metabase/metabase)** | [![GitHub_Stars](https://img.shields.io/github/stars/metabase/metabase?style=social&color=white)](https://github.com/metabase/metabase/stargazers) | AGPL-3.0 / Commercial | Clojure, TypeScript, SQL | Self-hosted BI & product analytics dashboards with visual query builder. |
+| **[PostHog](https://github.com/PostHog/posthog)** | [![GitHub_Stars](https://img.shields.io/github/stars/PostHog/posthog?style=social&color=white)](https://github.com/PostHog/posthog/stargazers) | MIT / Commercial | Python, TypeScript, ClickHouse, Kafka | The complete open-source Product OS: analytics, replay, feature flags & surveys. |
+| **[Umami](https://github.com/umami-software/umami)** | [![GitHub_Stars](https://img.shields.io/github/stars/umami-software/umami?style=social&color=white)](https://github.com/umami-software/umami/stargazers) | MIT | Next.js, Prisma, PostgreSQL, MySQL | Lightweight, privacy-focused, cookie-free analytics alternative to Google Analytics. |
+| **[Plausible](https://github.com/plausible/analytics)** | [![GitHub_Stars](https://img.shields.io/github/stars/plausible/analytics?style=social&color=white)](https://github.com/plausible/analytics/stargazers) | AGPL-3.0 | Elixir, Phoenix, ClickHouse, PostgreSQL | Lightweight, privacy-first web & product analytics with zero cookies and no banner requirement. |
+| **[Matomo](https://github.com/matomo-org/matomo)** | [![GitHub_Stars](https://img.shields.io/github/stars/matomo-org/matomo?style=social&color=white)](https://github.com/matomo-org/matomo/stargazers) | GPL-3.0 | PHP, JavaScript, MySQL/MariaDB | Enterprise web & product analytics with 100% data ownership and GDPR compliance. |
+| **[rrweb](https://github.com/rrweb-io/rrweb)** | [![GitHub_Stars](https://img.shields.io/github/stars/rrweb-io/rrweb?style=social&color=white)](https://github.com/rrweb-io/rrweb/stargazers) | MIT | TypeScript | Open-source web session recorder and player powering modern session replay tools. |
+| **[OpenReplay](https://github.com/openreplay/openreplay)** | [![GitHub_Stars](https://img.shields.io/github/stars/openreplay/openreplay?style=social&color=white)](https://github.com/openreplay/openreplay/stargazers) | ELv2 / Apache-2.0 | Go, TypeScript, ClickHouse, Kafka | Self-hosted session replay, devtools inspection, error tracking, and funnel analysis. |
+| **[Highlight.io](https://github.com/highlight/highlight)** | [![GitHub_Stars](https://img.shields.io/github/stars/highlight/highlight?style=social&color=white)](https://github.com/highlight/highlight/stargazers) | Apache-2.0 | Go, React, ClickHouse, OpenTelemetry | Full-stack observability combining session replay, frontend error monitoring & traces. |
+| **[GrowthBook](https://github.com/growthbook/growthbook)** | [![GitHub_Stars](https://img.shields.io/github/stars/growthbook/growthbook?style=social&color=white)](https://github.com/growthbook/growthbook/stargazers) | MIT | TypeScript, Node.js, Next.js | Open-source feature flagging and statistical A/B testing connected to your data warehouse. |
+| **[OpenPanel](https://github.com/Openpanel-dev/openpanel)** | [![GitHub_Stars](https://img.shields.io/github/stars/Openpanel-dev/openpanel?style=social&color=white)](https://github.com/Openpanel-dev/openpanel/stargazers) | AGPL-3.0 | Next.js, Rust, ClickHouse, Redis | Open-source Mixpanel alternative with event tracking, funnels & session recordings. |
+| **[Snowplow](https://github.com/snowplow/snowplow)** | [![GitHub_Stars](https://img.shields.io/github/stars/snowplow/snowplow?style=social&color=white)](https://github.com/snowplow/snowplow/stargazers) | Apache-2.0 / BSL | Scala, Java, Kafka, Snowflake, BigQuery | Enterprise-grade behavioral event data pipeline generating clean, warehouse-ready tables. |
+| **[Flagsmith](https://github.com/Flagsmith/flagsmith)** | [![GitHub_Stars](https://img.shields.io/github/stars/Flagsmith/flagsmith?style=social&color=white)](https://github.com/Flagsmith/flagsmith/stargazers) | BSD-3-Clause | Python, Django, React, PostgreSQL | Open-source feature flags and remote configuration to measure feature rollout impact. |
+| **[Countly](https://github.com/Countly/countly-server)** | [![GitHub_Stars](https://img.shields.io/github/stars/Countly/countly-server?style=social&color=white)](https://github.com/Countly/countly-server/stargazers) | AGPL-3.0 / Commercial | Node.js, MongoDB, JavaScript | Mobile & web product analytics with push notifications, crashes & user profiles. |
+| **[Jitsu](https://github.com/jitsucom/jitsu)** | [![GitHub_Stars](https://img.shields.io/github/stars/jitsucom/jitsu?style=social&color=white)](https://github.com/jitsucom/jitsu/stargazers) | MIT | TypeScript, Go, ClickHouse, Kafka | Open-source data ingestion engine streaming user event data directly into data warehouses. |
+| **[Ackee](https://github.com/electerious/Ackee)** | [![GitHub_Stars](https://img.shields.io/github/stars/electerious/Ackee?style=social&color=white)](https://github.com/electerious/Ackee/stargazers) | MIT | Node.js, MongoDB, GraphQL | Node.js-based self-hosted analytics for developers seeking a 100% private tracker. |
+| **[RudderStack](https://github.com/rudderlabs/rudder-server)** | [![GitHub_Stars](https://img.shields.io/github/stars/rudderlabs/rudder-server?style=social&color=white)](https://github.com/rudderlabs/rudder-server/stargazers) | SSPL-1.0 | Go, PostgreSQL, Redis | Open-source customer data pipeline (Segment alternative) for developer-first tracking. |
+| **[Aptabase](https://github.com/aptabase/aptabase)** | [![GitHub_Stars](https://img.shields.io/github/stars/aptabase/aptabase?style=social&color=white)](https://github.com/aptabase/aptabase/stargazers) | AGPL-3.0 | Rust, TypeScript, ClickHouse | Open-source, privacy-first analytics built specifically for desktop and mobile apps. |
+| **[Swetrix](https://github.com/swetrix/swetrix)** | [![GitHub_Stars](https://img.shields.io/github/stars/swetrix/swetrix?style=social&color=white)](https://github.com/swetrix/swetrix/stargazers) | AGPL-3.0 | TypeScript, Node.js, ClickHouse | Lightweight, cookieless web & product analytics suite with performance and error tracking. |
 
 ---
 
 ### 🛠️ Open-Source Project Deep Dives
 
-- **[PostHog](https://github.com/PostHog/posthog)** [![GitHub stars](https://img.shields.io/github/stars/PostHog/posthog?style=social&color=white)](https://github.com/PostHog/posthog/stargazers)  
+- **[PostHog](https://github.com/PostHog/posthog)** [![GitHub_Stars](https://img.shields.io/github/stars/PostHog/posthog?style=social&color=white)](https://github.com/PostHog/posthog/stargazers)  
   *The undisputed leader in open-source product intelligence.* Delivers an all-in-one Product OS featuring event analytics, session recordings, heatmaps, feature flags, A/B experiments, survey prompts, error tracking, and warehouse data synchronization. Runs on ClickHouse for lightning-fast aggregation over billions of events.
 
-- **[Umami](https://github.com/umami-software/umami)** [![GitHub stars](https://img.shields.io/github/stars/umami-software/umami?style=social&color=white)](https://github.com/umami-software/umami/stargazers)  
+- **[Umami](https://github.com/umami-software/umami)** [![GitHub_Stars](https://img.shields.io/github/stars/umami-software/umami?style=social&color=white)](https://github.com/umami-software/umami/stargazers)  
   *A clean, fast, privacy-first alternative to Google Analytics.* Built with Next.js and Prisma, supporting MySQL or PostgreSQL. Captures pageviews, custom events, device metrics, and referral funnels without storing personally identifiable information or triggering cookie banners.
 
-- **[Plausible Analytics](https://github.com/plausible/analytics)** [![GitHub stars](https://img.shields.io/github/stars/plausible/analytics?style=social&color=white)](https://github.com/plausible/analytics/stargazers)  
+- **[Plausible Analytics](https://github.com/plausible/analytics)** [![GitHub_Stars](https://img.shields.io/github/stars/plausible/analytics?style=social&color=white)](https://github.com/plausible/analytics/stargazers)  
   *Lightweight and ultra-fast web analytics.* With a script footprint under 1 KB, Plausible provides an intuitive single-page dashboard displaying traffic sources, top pages, conversion goals, and custom event funnels without cookie banners.
 
-- **[Matomo](https://github.com/matomo-org/matomo)** [![GitHub stars](https://img.shields.io/github/stars/matomo-org/matomo?style=social&color=white)](https://github.com/matomo-org/matomo/stargazers)  
+- **[Matomo](https://github.com/matomo-org/matomo)** [![GitHub_Stars](https://img.shields.io/github/stars/matomo-org/matomo?style=social&color=white)](https://github.com/matomo-org/matomo/stargazers)  
   *The battle-tested, enterprise open-source analytics platform.* Provides 100% data ownership, full GDPR compliance audits, tag manager, heatmaps, session recordings, and custom goal funnels.
 
-- **[rrweb](https://github.com/rrweb-io/rrweb)** [![GitHub stars](https://img.shields.io/github/stars/rrweb-io/rrweb?style=social&color=white)](https://github.com/rrweb-io/rrweb/stargazers)  
+- **[rrweb](https://github.com/rrweb-io/rrweb)** [![GitHub_Stars](https://img.shields.io/github/stars/rrweb-io/rrweb?style=social&color=white)](https://github.com/rrweb-io/rrweb/stargazers)  
   *The foundational open-source web session recording engine.* rrweb serializes DOM mutations and user interactions (mouse movement, scroll, inputs) into a lightweight JSON event stream that can be accurately replayed. Powers many commercial and self-hosted session playback tools.
 
-- **[OpenReplay](https://github.com/openreplay/openreplay)** [![GitHub stars](https://img.shields.io/github/stars/openreplay/openreplay?style=social&color=white)](https://github.com/openreplay/openreplay/stargazers)  
+- **[OpenReplay](https://github.com/openreplay/openreplay)** [![GitHub_Stars](https://img.shields.io/github/stars/openreplay/openreplay?style=social&color=white)](https://github.com/openreplay/openreplay/stargazers)  
   *Self-hosted session replay and developer monitoring suite.* Replays exactly what users did, while simultaneously recording network payloads, Redux actions, console logs, and UX frustration indicators.
 
-- **[Highlight.io](https://github.com/highlight/highlight)** [![GitHub stars](https://img.shields.io/github/stars/highlight/highlight?style=social&color=white)](https://github.com/highlight/highlight/stargazers)  
+- **[Highlight.io](https://github.com/highlight/highlight)** [![GitHub_Stars](https://img.shields.io/github/stars/highlight/highlight?style=social&color=white)](https://github.com/highlight/highlight/stargazers)  
   *Open-source full-stack observability platform.* Unifies session playback with backend distributed tracing and frontend exception tracking, allowing engineers to jump directly from a server error trace to the user's recorded session.
 
-- **[GrowthBook](https://github.com/growthbook/growthbook)** [![GitHub stars](https://img.shields.io/github/stars/growthbook/growthbook?style=social&color=white)](https://github.com/growthbook/growthbook/stargazers)  
+- **[GrowthBook](https://github.com/growthbook/growthbook)** [![GitHub_Stars](https://img.shields.io/github/stars/growthbook/growthbook?style=social&color=white)](https://github.com/growthbook/growthbook/stargazers)  
   *Warehouse-native feature flagging and experimentation engine.* Connects directly to Snowflake, BigQuery, ClickHouse, or Redshift to analyze A/B test experiments using Bayesian or Frequentist statistical models without syncing event data to external servers.
 
-- **[OpenPanel](https://github.com/Openpanel-dev/openpanel)** [![GitHub stars](https://img.shields.io/github/stars/Openpanel-dev/openpanel?style=social&color=white)](https://github.com/Openpanel-dev/openpanel/stargazers)  
+- **[OpenPanel](https://github.com/Openpanel-dev/openpanel)** [![GitHub_Stars](https://img.shields.io/github/stars/Openpanel-dev/openpanel?style=social&color=white)](https://github.com/Openpanel-dev/openpanel/stargazers)  
   *Modern open-source Mixpanel alternative.* Built on ClickHouse and Rust, OpenPanel offers event analytics, user profiles, funnel analysis, and session replay with transparent, self-hostable licensing.
 
-- **[Snowplow](https://github.com/snowplow/snowplow)** [![GitHub stars](https://img.shields.io/github/stars/snowplow/snowplow?style=social&color=white)](https://github.com/snowplow/snowplow/stargazers)  
+- **[Snowplow](https://github.com/snowplow/snowplow)** [![GitHub_Stars](https://img.shields.io/github/stars/snowplow/snowplow?style=social&color=white)](https://github.com/snowplow/snowplow/stargazers)  
   *Industrial-grade behavioral data pipeline.* Validates, enriches, and models real-time behavioral event streams into your cloud data warehouse with schema enforcement and custom entity models.
 
-- **[Flagsmith](https://github.com/Flagsmith/flagsmith)** [![GitHub stars](https://img.shields.io/github/stars/Flagsmith/flagsmith?style=social&color=white)](https://github.com/Flagsmith/flagsmith/stargazers)  
+- **[Flagsmith](https://github.com/Flagsmith/flagsmith)** [![GitHub_Stars](https://img.shields.io/github/stars/Flagsmith/flagsmith?style=social&color=white)](https://github.com/Flagsmith/flagsmith/stargazers)  
   *Open-source feature flag and remote configuration engine.* Lets teams toggle features dynamically, run multivariate experiments, and segment releases to specific user cohorts.
 
-- **[Countly](https://github.com/Countly/countly-server)** [![GitHub stars](https://img.shields.io/github/stars/Countly/countly-server?style=social&color=white)](https://github.com/Countly/countly-server/stargazers)  
+- **[Countly](https://github.com/Countly/countly-server)** [![GitHub_Stars](https://img.shields.io/github/stars/Countly/countly-server?style=social&color=white)](https://github.com/Countly/countly-server/stargazers)  
   *Mobile-first product analytics and engagement platform.* Provides real-time event analytics, in-app push messaging, crash analytics, and user cohort management for iOS, Android, and web apps.
 
-- **[Jitsu](https://github.com/jitsucom/jitsu)** [![GitHub stars](https://img.shields.io/github/stars/jitsucom/jitsu?style=social&color=white)](https://github.com/jitsucom/jitsu/stargazers)  
+- **[Jitsu](https://github.com/jitsucom/jitsu)** [![GitHub_Stars](https://img.shields.io/github/stars/jitsucom/jitsu?style=social&color=white)](https://github.com/jitsucom/jitsu/stargazers)  
   *Open-source customer data ingestion platform.* Acts as a lightweight, modern Segment replacement that captures web events and streams them with schema transformation directly into ClickHouse, BigQuery, or Postgres.
 
-- **[Ackee](https://github.com/electerious/Ackee)** [![GitHub stars](https://img.shields.io/github/stars/electerious/Ackee?style=social&color=white)](https://github.com/electerious/Ackee/stargazers)  
+- **[Ackee](https://github.com/electerious/Ackee)** [![GitHub_Stars](https://img.shields.io/github/stars/electerious/Ackee?style=social&color=white)](https://github.com/electerious/Ackee/stargazers)  
   *Self-hosted Node.js analytics server.* Features a clean, minimalist UI for tracking page views, bounce rates, visit durations, and referrer data with GraphQL API support and strict privacy protection.
 
-- **[RudderStack](https://github.com/rudderlabs/rudder-server)** [![GitHub stars](https://img.shields.io/github/stars/rudderlabs/rudder-server?style=social&color=white)](https://github.com/rudderlabs/rudder-server/stargazers)  
+- **[RudderStack](https://github.com/rudderlabs/rudder-server)** [![GitHub_Stars](https://img.shields.io/github/stars/rudderlabs/rudder-server?style=social&color=white)](https://github.com/rudderlabs/rudder-server/stargazers)  
   *Enterprise customer data infrastructure.* Collects, routes, and transforms event data from web, mobile, and server sources to hundreds of analytics, marketing, and warehouse destinations.
 
-- **[Aptabase](https://github.com/aptabase/aptabase)** [![GitHub stars](https://img.shields.io/github/stars/aptabase/aptabase?style=social&color=white)](https://github.com/aptabase/aptabase/stargazers)  
+- **[Aptabase](https://github.com/aptabase/aptabase)** [![GitHub_Stars](https://img.shields.io/github/stars/aptabase/aptabase?style=social&color=white)](https://github.com/aptabase/aptabase/stargazers)  
   *Privacy-first telemetry for mobile, desktop, and web apps.* Written in Rust and ClickHouse, Aptabase provides native SDKs for Flutter, React Native, Swift, Tauri, and Electron with zero device profiling.
 
-- **[Swetrix](https://github.com/swetrix/swetrix)** [![GitHub stars](https://img.shields.io/github/stars/swetrix/swetrix?style=social&color=white)](https://github.com/swetrix/swetrix/stargazers)  
+- **[Swetrix](https://github.com/swetrix/swetrix)** [![GitHub_Stars](https://img.shields.io/github/stars/swetrix/swetrix?style=social&color=white)](https://github.com/swetrix/swetrix/stargazers)  
   *Fully open-source, cookieless, and GDPR/CCPA/PECR compliant analytics platform.* Tracks traffic sources, custom event funnels, page load performance, and client-side JavaScript errors.
 
 ---
